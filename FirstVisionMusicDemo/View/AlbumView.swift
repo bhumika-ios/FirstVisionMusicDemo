@@ -65,14 +65,15 @@ struct AlbumView: View {
                     Button{} label:{
                         Image (systemName: "forward.fill")
                     }
-                    HStack{
-                        AsyncImage(url: URL(string:
-                                                "https://i.postimg.cc/ZvLtPzmB/Rectangle-4.png")){ image in
-                            image.resizable()
-                        }placeholder: {
-                            Rectangle().foregroundStyle(.tertiary)
-                        }.frame(width: 48, height: 48)
-                            .cornerRadius(6)
+                    PlayCardView()
+                    Button{} label:{
+                        Image (systemName: "quote.bubble")
+                    }
+                    Button{} label:{
+                        Image (systemName: "list.bullet")
+                    }
+                    Button{} label:{
+                        Image (systemName: "speaker wave.3.fill")
                     }
                 }.padding (.vertical,8)
             }
@@ -82,4 +83,29 @@ struct AlbumView: View {
 
 #Preview {
     AlbumView()
+}
+
+struct PlayCardView: View {
+    var body: some View {
+        HStack{
+            AsyncImage(url: URL(string:
+                                    "https://i.postimg.cc/ZvLtPzmB/Rectangle-4.png")){ image in
+                image.resizable()
+            }placeholder: {
+                Rectangle().foregroundStyle(.tertiary)
+            }.frame(width: 48, height: 48)
+                .cornerRadius(6)
+            VStack (alignment: .leading) {
+                Text ("Kokomo" )
+                Text ("The Beach Boys")
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
+            }.frame(width: 160, alignment: .leading)
+            Button (action: {}) {
+                Image(systemName: "ellipsis")
+            }.buttonBorderShape(.circle)
+        }
+        .padding (.all, 8)
+        .background(.regularMaterial, in: .rect(cornerRadius: 14) )
+    }
 }

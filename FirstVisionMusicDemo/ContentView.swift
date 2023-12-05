@@ -11,10 +11,29 @@ import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        NavigationSplitView{
-            SideBarViews()
-        } detail: {
-            AlbumView()
+        TabView{
+            NavigationSplitView{
+                SideBarViews()
+            } detail: {
+                AlbumView()
+            }.tabItem {
+                Label("Browse", systemImage: "music.note")
+            }.tag(0)
+            NavigationSplitView{
+                SideBarViews()
+            } detail: {
+                Text("Favorite")
+            }.tabItem {
+                    Label("Favorite", systemImage: "heart.fill")
+                }.tag(1)
+            NavigationSplitView{
+                SideBarViews()
+            } detail: {
+                Text("PlayList")
+            }
+                .tabItem {
+                    Label("Playlist", systemImage: "play.square.stack")
+                }.tag(2)
         }
     }
 }
