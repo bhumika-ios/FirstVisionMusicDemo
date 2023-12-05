@@ -16,6 +16,7 @@
 		AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */; };
 		AC5099C52B1F366F005A3F4B /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C42B1F366F005A3F4B /* SideBarViews.swift */; };
 		AC5099C72B1F373E005A3F4B /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C62B1F373E005A3F4B /* AlbumView.swift */; };
+		AC5099C92B1F39CD005A3F4B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C82B1F39CD005A3F4B /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 		AC5099C42B1F366F005A3F4B /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
 		AC5099C62B1F373E005A3F4B /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		AC5099C82B1F39CD005A3F4B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */,
+				AC5099C82B1F39CD005A3F4B /* Album.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				AC5099A52B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift in Sources */,
 				AC5099C72B1F373E005A3F4B /* AlbumView.swift in Sources */,
 				AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */,
+				AC5099C92B1F39CD005A3F4B /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
