@@ -14,6 +14,20 @@ struct ContentView: View {
         NavigationSplitView{
             List {
                 Text("Menu Item")
+            }.toolbar{
+                ToolbarItem(placement: .topBarLeading){
+                    VStack(alignment: .leading){
+                        Text("Library")
+                            .font(.largeTitle)
+                        Text("All Music")
+                            .foregroundStyle(.tertiary)
+                    }
+                }
+                ToolbarItem{
+                    Button(action: {}, label: {
+                        Image(systemName: "ellipsis")
+                    })
+                }
             }
         } detail: {
             
