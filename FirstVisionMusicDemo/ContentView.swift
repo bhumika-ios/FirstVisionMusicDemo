@@ -12,8 +12,10 @@ import RealityKitContent
 struct ContentView: View {
     var body: some View {
         NavigationSplitView{
-            List {
-                Text("Menu Item")
+            List (sideMenuItems){ item in
+                NavigationLink(value: item.self){
+                    Label(item.name, systemImage: item.icon)
+                }
             }.toolbar{
                 ToolbarItem(placement: .topBarLeading){
                     VStack(alignment: .leading){
