@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5099A32B1F2D7B005A3F4B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = AC5099A22B1F2D7B005A3F4B /* RealityKitContent */; };
+		AC5099A52B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099A42B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift */; };
+		AC5099A72B1F2D7B005A3F4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099A62B1F2D7B005A3F4B /* ContentView.swift */; };
+		AC5099A92B1F2D7D005A3F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5099A82B1F2D7D005A3F4B /* Assets.xcassets */; };
+		AC5099AC2B1F2D7D005A3F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5099AB2B1F2D7D005A3F4B /* Preview Assets.xcassets */; };
+		AC5099B72B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5099B32B1F2D7D005A3F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5099952B1F2D7B005A3F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC50999C2B1F2D7B005A3F4B;
+			remoteInfo = FirstVisionMusicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC50999D2B1F2D7B005A3F4B /* FirstVisionMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstVisionMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5099A12B1F2D7B005A3F4B /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		AC5099A42B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisionMusicDemoApp.swift; sourceTree = "<group>"; };
+		AC5099A62B1F2D7B005A3F4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC5099A82B1F2D7D005A3F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5099AB2B1F2D7D005A3F4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC5099AD2B1F2D7D005A3F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5099B22B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstVisionMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisionMusicDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC50999A2B1F2D7B005A3F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5099A32B1F2D7B005A3F4B /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5099AF2B1F2D7D005A3F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5099942B1F2D7B005A3F4B = {
+			isa = PBXGroup;
+			children = (
+				AC50999F2B1F2D7B005A3F4B /* FirstVisionMusicDemo */,
+				AC5099A02B1F2D7B005A3F4B /* Packages */,
+				AC5099B52B1F2D7D005A3F4B /* FirstVisionMusicDemoTests */,
+				AC50999E2B1F2D7B005A3F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC50999E2B1F2D7B005A3F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC50999D2B1F2D7B005A3F4B /* FirstVisionMusicDemo.app */,
+				AC5099B22B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC50999F2B1F2D7B005A3F4B /* FirstVisionMusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099A42B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift */,
+				AC5099A62B1F2D7B005A3F4B /* ContentView.swift */,
+				AC5099A82B1F2D7D005A3F4B /* Assets.xcassets */,
+				AC5099AD2B1F2D7D005A3F4B /* Info.plist */,
+				AC5099AA2B1F2D7D005A3F4B /* Preview Content */,
+			);
+			path = FirstVisionMusicDemo;
+			sourceTree = "<group>";
+		};
+		AC5099A02B1F2D7B005A3F4B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099A12B1F2D7B005A3F4B /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		AC5099AA2B1F2D7D005A3F4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099AB2B1F2D7D005A3F4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC5099B52B1F2D7D005A3F4B /* FirstVisionMusicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */,
+			);
+			path = FirstVisionMusicDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC50999C2B1F2D7B005A3F4B /* FirstVisionMusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5099BA2B1F2D7D005A3F4B /* Build configuration list for PBXNativeTarget "FirstVisionMusicDemo" */;
+			buildPhases = (
+				AC5099992B1F2D7B005A3F4B /* Sources */,
+				AC50999A2B1F2D7B005A3F4B /* Frameworks */,
+				AC50999B2B1F2D7B005A3F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstVisionMusicDemo;
+			packageProductDependencies = (
+				AC5099A22B1F2D7B005A3F4B /* RealityKitContent */,
+			);
+			productName = FirstVisionMusicDemo;
+			productReference = AC50999D2B1F2D7B005A3F4B /* FirstVisionMusicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC5099B12B1F2D7D005A3F4B /* FirstVisionMusicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5099BD2B1F2D7D005A3F4B /* Build configuration list for PBXNativeTarget "FirstVisionMusicDemoTests" */;
+			buildPhases = (
+				AC5099AE2B1F2D7D005A3F4B /* Sources */,
+				AC5099AF2B1F2D7D005A3F4B /* Frameworks */,
+				AC5099B02B1F2D7D005A3F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5099B42B1F2D7D005A3F4B /* PBXTargetDependency */,
+			);
+			name = FirstVisionMusicDemoTests;
+			productName = FirstVisionMusicDemoTests;
+			productReference = AC5099B22B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5099952B1F2D7B005A3F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					AC50999C2B1F2D7B005A3F4B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					AC5099B12B1F2D7D005A3F4B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AC50999C2B1F2D7B005A3F4B;
+					};
+				};
+			};
+			buildConfigurationList = AC5099982B1F2D7B005A3F4B /* Build configuration list for PBXProject "FirstVisionMusicDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5099942B1F2D7B005A3F4B;
+			productRefGroup = AC50999E2B1F2D7B005A3F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC50999C2B1F2D7B005A3F4B /* FirstVisionMusicDemo */,
+				AC5099B12B1F2D7D005A3F4B /* FirstVisionMusicDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC50999B2B1F2D7B005A3F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5099AC2B1F2D7D005A3F4B /* Preview Assets.xcassets in Resources */,
+				AC5099A92B1F2D7D005A3F4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5099B02B1F2D7D005A3F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5099992B1F2D7B005A3F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5099A72B1F2D7B005A3F4B /* ContentView.swift in Sources */,
+				AC5099A52B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5099AE2B1F2D7D005A3F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5099B72B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5099B42B1F2D7D005A3F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC50999C2B1F2D7B005A3F4B /* FirstVisionMusicDemo */;
+			targetProxy = AC5099B32B1F2D7D005A3F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC5099B82B1F2D7D005A3F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		AC5099B92B1F2D7D005A3F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		AC5099BB2B1F2D7D005A3F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirstVisionMusicDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirstVisionMusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		AC5099BC2B1F2D7D005A3F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirstVisionMusicDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirstVisionMusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		AC5099BE2B1F2D7D005A3F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirstVisionMusicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstVisionMusicDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstVisionMusicDemo";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		AC5099BF2B1F2D7D005A3F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirstVisionMusicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstVisionMusicDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstVisionMusicDemo";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5099982B1F2D7B005A3F4B /* Build configuration list for PBXProject "FirstVisionMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5099B82B1F2D7D005A3F4B /* Debug */,
+				AC5099B92B1F2D7D005A3F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5099BA2B1F2D7D005A3F4B /* Build configuration list for PBXNativeTarget "FirstVisionMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5099BB2B1F2D7D005A3F4B /* Debug */,
+				AC5099BC2B1F2D7D005A3F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5099BD2B1F2D7D005A3F4B /* Build configuration list for PBXNativeTarget "FirstVisionMusicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5099BE2B1F2D7D005A3F4B /* Debug */,
+				AC5099BF2B1F2D7D005A3F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC5099A22B1F2D7B005A3F4B /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC5099952B1F2D7B005A3F4B /* Project object */;
+}
