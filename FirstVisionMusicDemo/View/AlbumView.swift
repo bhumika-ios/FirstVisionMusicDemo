@@ -14,6 +14,7 @@ struct AlbumView: View {
         ScrollView{
             TextField("Search in album", text: $searchText)
                 .textFieldStyle(.roundedBorder)
+                .padding(.bottom)
             LazyVGrid(columns: colums, spacing: 24){
                 ForEach(albums) { album in
                     Button (action: {}) {
@@ -21,7 +22,7 @@ struct AlbumView: View {
                             AsyncImage(url: URL(string: album.image)) { image in
                                 image.resizable()
                             }placeholder: {
-                                Rectangle()
+                                Rectangle().foregroundStyle(.tertiary)
                             }.aspectRatio(1, contentMode: . fill)
                                 .scaledToFill()
                                 .cornerRadius (10)
@@ -50,6 +51,30 @@ struct AlbumView: View {
                 Button(action: {}, label: {
                     Image(systemName: "line.3.horizontal.decrease")
                 })
+            }
+        }
+        .toolbar {
+            ToolbarItemGroup (placement: .bottomOrnament) {
+                HStack{
+                    Button{} label:{
+                        Image (systemName: "backward.fill")
+                    }
+                    Button{} label:{
+                        Image (systemName: "pause.fill")
+                    }
+                    Button{} label:{
+                        Image (systemName: "forward.fill")
+                    }
+                    HStack{
+                        AsyncImage(url: URL(string:
+                                                "https://i.postimg.cc/ZvLtPzmB/Rectangle-4.png")){ image in
+                            image.resizable()
+                        }placeholder: {
+                            Rectangle().foregroundStyle(.tertiary)
+                        }.frame(width: 48, height: 48)
+                            .cornerRadius(6)
+                    }
+                }.padding (.vertical,8)
             }
         }
     }
