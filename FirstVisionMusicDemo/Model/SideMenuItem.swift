@@ -5,14 +5,19 @@
 //  Created by Bhumika Patel on 05/12/23.
 //
 
-import SwiftUI
+import Foundation
 
-struct SideMenuItem: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct SideMenuItem: Identifiable, Hashable{
+    var id = UUID()
+    var name: String
+    var icon: String
 }
 
-#Preview {
-    SideMenuItem()
-}
+let sideMenuItems: [SideMenuItem] = [
+    SideMenuItem(name: "Recently Added", icon: "clock"),
+    SideMenuItem(name: "Artists", icon: "music.mic"),
+    SideMenuItem(name: "Albums", icon: "square.stack"),
+    SideMenuItem(name: "Songs", icon: "music.note"),
+    SideMenuItem(name: "Made For You", icon: "person.crop.square")
+]
+

@@ -13,6 +13,7 @@
 		AC5099A92B1F2D7D005A3F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5099A82B1F2D7D005A3F4B /* Assets.xcassets */; };
 		AC5099AC2B1F2D7D005A3F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5099AB2B1F2D7D005A3F4B /* Preview Assets.xcassets */; };
 		AC5099B72B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */; };
+		AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		AC5099AD2B1F2D7D005A3F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5099B22B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstVisionMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisionMusicDemoTests.swift; sourceTree = "<group>"; };
+		AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		AC50999F2B1F2D7B005A3F4B /* FirstVisionMusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC5099C02B1F307C005A3F4B /* Model */,
 				AC5099A42B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift */,
 				AC5099A62B1F2D7B005A3F4B /* ContentView.swift */,
 				AC5099A82B1F2D7D005A3F4B /* Assets.xcassets */,
@@ -109,6 +112,14 @@
 				AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */,
 			);
 			path = FirstVisionMusicDemoTests;
+			sourceTree = "<group>";
+		};
+		AC5099C02B1F307C005A3F4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			files = (
 				AC5099A72B1F2D7B005A3F4B /* ContentView.swift in Sources */,
 				AC5099A52B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift in Sources */,
+				AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
