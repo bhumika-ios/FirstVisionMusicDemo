@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct AlbumView: View {
+    @State private var searchText: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            TextField("Search in album", text: $searchText)
+                .textFieldStyle(.roundedBorder)
+        }.padding(.horizontal,24)
+        .toolbar{
+            ToolbarItemGroup(placement: .topBarLeading){
+                VStack(alignment: .leading){
+                    Text("Albums")
+                        .font(.largeTitle)
+                    Text("40 songs")
+                        .foregroundStyle(.tertiary)
+                }
+                
+            }
+            ToolbarItem{
+                Button(action: {}, label: {
+                    Image(systemName: "line.3.horizontal.decrease")
+                })
+            }
+        }
     }
 }
 

@@ -14,6 +14,8 @@
 		AC5099AC2B1F2D7D005A3F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5099AB2B1F2D7D005A3F4B /* Preview Assets.xcassets */; };
 		AC5099B72B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */; };
 		AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */; };
+		AC5099C52B1F366F005A3F4B /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C42B1F366F005A3F4B /* SideBarViews.swift */; };
+		AC5099C72B1F373E005A3F4B /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5099C62B1F373E005A3F4B /* AlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		AC5099B22B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstVisionMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5099B62B1F2D7D005A3F4B /* FirstVisionMusicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisionMusicDemoTests.swift; sourceTree = "<group>"; };
 		AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		AC5099C42B1F366F005A3F4B /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
+		AC5099C62B1F373E005A3F4B /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		AC50999F2B1F2D7B005A3F4B /* FirstVisionMusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC5099C32B1F365C005A3F4B /* View */,
 				AC5099C02B1F307C005A3F4B /* Model */,
 				AC5099A42B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift */,
 				AC5099A62B1F2D7B005A3F4B /* ContentView.swift */,
@@ -120,6 +125,15 @@
 				AC5099C12B1F3094005A3F4B /* SideMenuItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AC5099C32B1F365C005A3F4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC5099C42B1F366F005A3F4B /* SideBarViews.swift */,
+				AC5099C62B1F373E005A3F4B /* AlbumView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5099A72B1F2D7B005A3F4B /* ContentView.swift in Sources */,
+				AC5099C52B1F366F005A3F4B /* SideBarViews.swift in Sources */,
 				AC5099A52B1F2D7B005A3F4B /* FirstVisionMusicDemoApp.swift in Sources */,
+				AC5099C72B1F373E005A3F4B /* AlbumView.swift in Sources */,
 				AC5099C22B1F3094005A3F4B /* SideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
